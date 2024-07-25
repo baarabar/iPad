@@ -1,107 +1,129 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    gap: 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2em;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.history, .services, .contacts, .success-cases {
-    margin-bottom: 2em;
-}
-
-h3 {
-    margin-top: 1em;
-}
-
-.service, .case {
-    background-color: #fff;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1em;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer .container {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
-footer .footer-nav ul {
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
     display: flex;
-    gap: 1em;
-    margin-bottom: 1em;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section {
+    padding: 60px 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #000;
+}
+
+.about-content, .contact-content {
+    display: flex;
+    gap: 20px;
+}
+
+.about-text, .contact-text, .service-item, .case-item {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.service-item, .case-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 10px;
+    flex: 1;
 }
 
-form input, form button {
-    padding: 0.5em;
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 form button {
-    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
     color: #fff;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #333;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
