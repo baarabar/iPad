@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency Insider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>insider</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contacts">contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>about us</h2>
+            <div class="history">
+                <h3>our history</h3>
+                <p>Back then in 2016, Facundo Bonfigli and Lucas Chimaldez were introduced into paid media marketing during their work in Restaurant booking application in Latin America. After working for over a year together, they moved on to Mercado Libre and Garbarino, respectively.</p>
+                <h3>Nowadays</h3>
+                <p>After 5 years Insider has managed to settle in Buenos Aires, with a team of +20 digital performance specialized agents, handling a portfolio of over 100 clients all over Latin America in different industries. With portfolios and accounts with digital giants, as well as the biggest consulting firms in the World.</p>
+                <p>Insider’s offers brands a full range of performance marketing services, including programmatic advertising, media buying, social media, and analytics & data management planning.</p>
+                <p>We have no special industry of preference. Whether you work with E-commerce, Real Estate, Financial Institutions, Banks, Consulting, Health and Personal Care, Food Apps, Artists, we can help you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>services</h2>
+            <div class="service">
+                <h3>Consultancy</h3>
+                <p>If you are looking for a strategic, high impact solution, we have the perfect tools. We work side by side with our clients in order to develop an integrated plan. Own media, CRO, content generation, SEO, Agile Methodologies & Reporting.</p>
+            </div>
+            <div class="service">
+                <h3>Automation</h3>
+                <p>Mark creates and optimizes your Paid Media campaigns and provides you with full automated reports. We combined our expertise and tech to reduce implementation time and eliminates possible human mistakes, delivering unseen results.</p>
+            </div>
+            <div class="service">
+                <h3>Agency</h3>
+                <p>Whether you have an e-commerce, you need leads or you have a personalized need. We have special treatment for clients. We develop and execute paid media strategies that allow our clients to achieve the goal in order to reach their objectives. We work as partners, side by side with agile methodologies and a top tier customer service.</p>
+            </div>
+            <div class="success-cases">
+                <h3>Success cases</h3>
+                <div class="case">
+                    <h4>Arredo</h4>
+                    <p>Arredo was planning an expansion of their ecommerce but they were having trouble scaling their investment without losing returns and campaign performance.</p>
+                    <p>We made a deep dive to understand which channels were having the best ROAS in order to come up with an efficient way to distribute their budget into the most efficient web properties. They stabilized their investment and performance and saw results in less than 180 days without losing significant returns.</p>
+                </div>
+                <div class="case">
+                    <h4>Supervielle</h4>
+                    <p>They needed to grow the share of online channels and wanted to achieve this by lowering their cost per acquisition.</p>
+                    <p>We started by creating from scratch a whole new media plan that included Google Ads and Facebook Ads, and relocating the budget for each platform. Thanks to the brand awareness we had with Supervielle we lowered their ROAS investment 160% without losing performance, managing to decrease their cost per acquisition by 12%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2>contacts</h2>
+            <p>The best ideas come unexpectedly. That's why our sales department will take up your enquiry at any time.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contacts">contacts</a></li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <p>Email: <a href="mailto:contact@insider.com">contact@insider.com</a></p>
+                <p>Email: <a href="mailto:ads@insider.com">ads@insider.com</a></p>
+                <p>Phone: +1 657-222-4747</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
